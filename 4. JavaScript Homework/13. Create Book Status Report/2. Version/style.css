@@ -1,0 +1,25 @@
+body {
+    text-align: center;
+    background-color: #eee;
+}
+
+div {
+    text-align: left;
+    margin: auto;
+    border: 10px solid black;
+    width: 70vw;
+    height: auto;
+
+}
+li {
+    border: 1px solid black;
+    line-height: 50px;
+    font-size: 20px;
+    background-color: purple;
+    color: white;
+
+}
+
+p {
+    font-size: 15px;
+}
