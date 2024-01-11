@@ -67,18 +67,32 @@ function deleteContact(index) {
     renderContacts();
 }
 
-function editContact(index) {
-    contacts.splice(index, 1);
+function editContact() {
+
+    let trs = document.getElementsByTagName('tr');
+    let row = table.insertRow(-1)
+    let firstNameCell = trs.insertCell(0).innerText
+    let lastNameCell = trs.insertCell(1).innerText
+    let phoneNumberCell = trs.insertCell(2).innerText
+
+    let 
     
+    let firstNameInput = prompt("", firstNameCell.innerHTML);
+    let lastNameInput = prompt("", lastNameCell.innerHTML);
+    let phoneNumberInput = prompt("", phoneNumberCell.innerHTML);
+  
+    
+    firstNameCell.innerHTML = firstNameInput
+    lastNameCell.innerHTML = lastNameInput
+    phoneNumberCell.innerHTML = phoneNumberInput
+    
+    renderContacts()
+    }
 
-
-
-
-
-
-
-
-
-
-    renderContacts();
-}
+    // function editContact(button) {
+    //     button.closest("tr").querySelectorAll("td.editable").forEach(
+    //       function(e) {
+    //         e.contentEditable = true;
+    //       })
+    //     }
+        

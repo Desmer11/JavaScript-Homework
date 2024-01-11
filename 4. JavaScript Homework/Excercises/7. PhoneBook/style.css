@@ -15,3 +15,15 @@ table {
     border: 10px solid black;
 
 }
+button { 
+    margin: 10px; 
+    padding: 8px 16px; 
+    background-color: #4CAF50; 
+    color: #fff; 
+    border: none; 
+    border-radius: 4px; 
+    cursor: pointer; 
+} 
+button:hover { 
+    background-color: #45a049; 
+} 
