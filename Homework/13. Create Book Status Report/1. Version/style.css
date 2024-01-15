@@ -1,0 +1,11 @@
+body {
+    text-align: center;
+    background-color: #eee;
+}
+
+div {
+    margin: auto;
+    border: 10px solid black;
+    width: 70vw;
+    height: 70vh;
+}
